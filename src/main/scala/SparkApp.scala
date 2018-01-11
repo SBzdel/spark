@@ -10,7 +10,7 @@ object SparkApp {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder().master("local").getOrCreate()
     import spark.implicits._
-
+    //uifuygu
     val connectionProperties = new Properties()
     connectionProperties.put("user", "root")
     connectionProperties.put("password", "")
